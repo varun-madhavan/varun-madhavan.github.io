@@ -1,0 +1,127 @@
+{
+  "sections": [
+    {
+      "id": "umich",
+      "title": "University of Michigan",
+      "description": "PhD and catalysis-focused research at the interface of chemical engineering and AI.",
+      "projects": [
+        {
+          "slug": "uncertainty-aware-catalyst-search",
+          "title": "Uncertainty-Aware Catalyst Search and Discovery",
+          "period": "Goldsmith Lab | University of Michigan | May 2022 - Aug 2022",
+          "summary": "Studied calibration-aware uncertainty quantification for adsorption-energy prediction on alloy catalysts using OC20 data.",
+          "detailFile": "content/research/projects/uncertainty-aware-catalyst-search.md",
+          "tags": ["Heterogeneous Catalysis", "Uncertainty Quantification", "Graph Neural Networks"]
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "title": "Amazon",
+      "description": "Applied ML for logistics forecasting, pre-training, and cost estimation.",
+      "projects": [
+        {
+          "slug": "amazon-package-pretraining",
+          "title": "Unsupervised Package Representation Pre-Training",
+          "period": "Amazon Applied Scientist | Jan 2024 - Aug 2025",
+          "summary": "Designed a next-state pre-training objective for package trajectories to improve multiple downstream logistics tasks.",
+          "detailFile": "content/research/projects/amazon-package-pretraining.md",
+          "tags": ["Self-Supervised Learning", "Representation Learning", "Logistics"]
+        },
+        {
+          "slug": "first-mile-demand-forecasting",
+          "title": "First-Mile Package Demand Forecasting",
+          "period": "Amazon Applied Scientist | Jan 2024 - Aug 2025",
+          "summary": "Built forecasting models for pickup planning and routing across temporal and geographic granularities.",
+          "detailFile": "content/research/projects/first-mile-demand-forecasting.md",
+          "tags": ["Forecasting", "Gradient Boosting", "Supply Chain"]
+        },
+        {
+          "slug": "rctransformer-shipping-cost",
+          "title": "RCTransformer for Shipping Cost Prediction",
+          "period": "Amazon Applied Scientist Intern | Jan 2023 - Jul 2023",
+          "summary": "Created a transformer architecture for package route plans and rate-card-informed last-mile shipping cost estimation.",
+          "detailFile": "content/research/projects/rctransformer-shipping-cost.md",
+          "tags": ["Transformers", "Operations Research", "Applied ML"]
+        }
+      ]
+    },
+    {
+      "id": "summer-research",
+      "title": "Summer Research",
+      "description": "Research internships focused on scientific machine learning and automated discovery.",
+      "projects": [
+        {
+          "slug": "self-supervised-pde-pretraining",
+          "title": "Self-Supervised Pre-Training for PDE Solvers",
+          "period": "Electrochemical Energy Group | Carnegie Mellon University | Jan 2023 - Oct 2023",
+          "summary": "Developed a foundational neural PDE solver using trajectory chunking and autoregressive transformer modeling.",
+          "detailFile": "content/research/projects/self-supervised-pde-pretraining.md",
+          "tags": ["Scientific Machine Learning", "PDEs", "Foundation Models"]
+        },
+        {
+          "slug": "ai-poincare-conservation-laws",
+          "title": "AI Poincare: Machine Learning Conservation Laws",
+          "period": "Tegmark Group | MIT | Apr 2021 - Aug 2021",
+          "summary": "Built methods to automatically discover numerical and symbolic conservation laws from governing differential equations.",
+          "detailFile": "content/research/projects/ai-poincare-conservation-laws.md",
+          "tags": ["Scientific Discovery", "Differential Equations", "Symbolic AI"]
+        }
+      ]
+    },
+    {
+      "id": "iit-kharagpur-theses",
+      "title": "IIT Kharagpur Theses",
+      "description": "Undergraduate and masters thesis projects connecting simulation and machine learning.",
+      "projects": [
+        {
+          "slug": "pandemic-abm-surrogates",
+          "title": "ML Surrogates for Pandemic Agent-Based Simulators",
+          "period": "IIT Kharagpur Bachelor Thesis | Aug 2021 - Apr 2022",
+          "summary": "Designed a machine-learning surrogate for intervention-policy simulation with substantial speedups over full ABM execution.",
+          "detailFile": "content/research/projects/pandemic-abm-surrogates.md",
+          "tags": ["Agent-Based Modeling", "Surrogate Modeling", "Public Health"]
+        },
+        {
+          "slug": "polyelectrolyte-adsorption-patterns",
+          "title": "Pattern Recognition in Polyelectrolyte Adsorption",
+          "period": "IIT Kharagpur Master Thesis | Aug 2022 - Apr 2023",
+          "summary": "Used molecular dynamics simulations to analyze adsorption behavior on patterned charged surfaces.",
+          "detailFile": "content/research/projects/polyelectrolyte-adsorption-patterns.md",
+          "tags": ["Molecular Simulation", "Soft Matter", "Adsorption"]
+        }
+      ]
+    },
+    {
+      "id": "other-projects",
+      "title": "Other Projects",
+      "description": "Additional applied work in NLP, retrieval, and argument mining.",
+      "projects": [
+        {
+          "slug": "prodigal-call-wrap-time",
+          "title": "Reducing Call Wrap Time with NLP",
+          "period": "Prodigal ML Engineer Intern | Aug 2023 - Dec 2023",
+          "summary": "Fine-tuned LLM workflows to automate call summarization and issue extraction for customer-support operations.",
+          "detailFile": "content/research/projects/prodigal-call-wrap-time.md",
+          "tags": ["NLP", "LLMs", "Efficiency"]
+        },
+        {
+          "slug": "domain-specific-qa-rag",
+          "title": "Domain-Specific QA with RAG",
+          "period": "Inter IIT Tech Meet 11.0 | Feb 2023",
+          "summary": "Led development of a CPU-efficient question-answering system combining retrieval and encoder-based ranking.",
+          "detailFile": "content/research/projects/domain-specific-qa-rag.md",
+          "tags": ["Retrieval-Augmented Generation", "On-Device Inference", "Information Retrieval"]
+        },
+        {
+          "slug": "key-point-matching-deberta",
+          "title": "Key Point Matching in Debates",
+          "period": "EMNLP Argument Mining Shared Task | Aug 2021",
+          "summary": "Built a sentence-overlap modeling pipeline using DeBERTa for key point matching in argument mining.",
+          "detailFile": "content/research/projects/key-point-matching-deberta.md",
+          "tags": ["Argument Mining", "NLP", "Benchmarking"]
+        }
+      ]
+    }
+  ]
+}

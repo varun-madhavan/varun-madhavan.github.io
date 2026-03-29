@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "slug": "umich-phd",
+      "organization": "University of Michigan",
+      "period": "Aug 2025 - Present",
+      "role": "PhD in Chemical Engineering and Scientific Computing",
+      "summary": "PhD candidate at Goldsmith Lab developing AI methods for materials discovery and catalyst search.",
+      "detailFile": "content/experience/panels/umich-phd.md"
+    },
+    {
+      "slug": "amazon-applied-scientist",
+      "organization": "Amazon",
+      "period": "Jan 2024 - Aug 2025",
+      "role": "Applied Scientist, Amazon",
+      "summary": "Led work on unsupervised pre-training and large-scale forecasting models for logistics optimization, including production systems at 10M-package/day scale.",
+      "detailFile": "content/experience/panels/amazon-applied-scientist.md"
+    },
+    {
+      "slug": "cmu-researcher",
+      "organization": "Carnegie Mellon University",
+      "period": "Jan 2023 - Oct 2023",
+      "role": "Summer Research Intern, Electrochemical Energy Group",
+      "summary": "Built self-supervised transformer frameworks for foundational PDE solvers across systems in PDEBench.",
+      "detailFile": "content/experience/panels/cmu-researcher.md"
+    },
+    {
+      "slug": "mit-tegmark",
+      "organization": "MIT",
+      "period": "Apr 2021 - Aug 2021",
+      "role": "Summer Research Intern, Tegmark Group",
+      "summary": "Developed AI Poincare for automated conservation-law discovery from differential equations.",
+      "detailFile": "content/experience/panels/mit-tegmark.md"
+    }
+  ]
+}

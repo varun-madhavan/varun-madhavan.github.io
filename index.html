@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varun Madhavan</title>
+    <meta
+      name="description"
+      content="Varun Madhavan is a PhD student at the Goldsmith Lab, University of Michigan, working on AI for materials discovery with a focus on agentic workflows and heterogeneous catalysis."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand brand-home nav-link-active" href="index.html">Home</a>
+        <nav>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="index.html#experience">Experience</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-copy">
+              <p class="eyebrow">PhD Student | Chemical Engineering + Scientific Computing</p>
+              <h1>Varun Madhavan</h1>
+              <p class="lead">
+                I am a PhD student in the <a href="https://cheresearch.engin.umich.edu/goldsmith/">Goldsmith Lab</a> at the
+                University of Michigan. My current research centers on <strong>agentic AI workflows for heterogeneous catalysis</strong>,
+                combining uncertainty-aware machine learning, scientific computing, and chemical engineering.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="assets/CV_VarunMadhavan_2025.pdf">Download CV</a>
+                <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=h_qdB70AAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>
+                <a class="btn btn-ghost" href="https://www.linkedin.com/in/varun-madhavan/">LinkedIn</a>
+                <a class="btn btn-ghost" href="https://github.com/varun-madhavan">GitHub</a>
+              </div>
+            </div>
+            <figure class="hero-headshot">
+              <img src="assets/varun-madhavan-headshot-2026.jpg" alt="Headshot of Varun Madhavan" loading="eager" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>Explore My Work</h2>
+          <p class="section-intro">
+            Dive into my current research directions and publication record. These pages focus on my present emphasis in AI-driven
+            materials discovery while keeping prior interdisciplinary work accessible.
+          </p>
+          <div class="grid two">
+            <article class="card">
+              <h3>Research</h3>
+              <p>
+                Learn about my current work on agentic scientific workflows, uncertainty-aware modeling, and machine learning
+                for heterogeneous catalysis.
+              </p>
+              <a class="btn btn-ghost inline-cta" href="research.html">Open Research Page</a>
+            </article>
+            <article class="card">
+              <h3>Publications</h3>
+              <p>
+                Browse selected journal papers, preprints, and conference publications spanning scientific machine learning,
+                chemistry, and broader AI applications.
+              </p>
+              <a class="btn btn-ghost inline-cta" href="publications.html">Open Publications Page</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <h2>Academic & Industry Experience</h2>
+          <div id="experience-root" class="experience-panes" aria-live="polite"></div>
+          <noscript>
+            <p>This section needs JavaScript enabled to render experience content.</p>
+          </noscript>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="container contact">
+          <h2>Contact</h2>
+          <p>
+            I am always open to research collaborations in scientific machine learning, AI for chemistry, and materials
+            discovery.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:varunmadhavan2@gmail.com">varunmadhavan2@gmail.com</a>
+            <a href="https://www.linkedin.com/in/varun-madhavan/">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Varun Madhavan</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="site-content.js"></script>
+  </body>
+</html>

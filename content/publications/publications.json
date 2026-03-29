@@ -1,0 +1,97 @@
+{
+  "sections": [
+    {
+      "title": "Journal Articles",
+      "entries": [
+        {
+          "slug": "mlst-2023-uncertainty",
+          "meta": "Machine Learning: Science and Technology, 2023",
+          "title": "Clarifying trust of materials property predictions using neural networks with distribution-specific uncertainty quantification",
+          "authors": "C. J. Gruich, V. Madhavan, Y. Wang, B. R. Goldsmith",
+          "links": [
+            {
+              "label": "DOI",
+              "url": "https://doi.org/10.1088/2632-2153/accace"
+            }
+          ],
+          "detailFile": "content/publications/entries/mlst-2023-uncertainty.md"
+        },
+        {
+          "slug": "pre-2022-conservation-laws",
+          "meta": "Physical Review E, 2022",
+          "title": "Machine learning conservation laws from differential equations",
+          "authors": "Z. Liu, V. Madhavan, M. Tegmark",
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.045307"
+            }
+          ],
+          "detailFile": "content/publications/entries/pre-2022-conservation-laws.md"
+        }
+      ]
+    },
+    {
+      "title": "Preprints",
+      "entries": [
+        {
+          "slug": "arxiv-2024-self-supervised-pde",
+          "meta": "arXiv, 2024",
+          "title": "Self-supervised pre-training for partial differential equations",
+          "authors": "V. Madhavan, A. S. Sebastian, B. Ramsundar, V. Viswanathan",
+          "links": [
+            {
+              "label": "Preprint",
+              "url": "https://arxiv.org/abs/2407.06209"
+            }
+          ],
+          "detailFile": "content/publications/entries/arxiv-2024-self-supervised-pde.md"
+        }
+      ]
+    },
+    {
+      "title": "Selected Conference Papers",
+      "entries": [
+        {
+          "slug": "aamas-2023-epidemic-abm",
+          "meta": "AAMAS 2023 / AI4ABM at ICML 2022",
+          "title": "Deep learning for spatially explicit emulation of epidemic agent-based models",
+          "authors": "V. Madhavan, A. Mitra, P. P. Chakrabarti",
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://dl.acm.org/doi/10.5555/3545946.3599060"
+            }
+          ],
+          "detailFile": "content/publications/entries/aamas-2023-epidemic-abm.md"
+        },
+        {
+          "slug": "acml-2023-rctransformer",
+          "meta": "ACML 2023",
+          "title": "RCTransformer: Unveiling the power of self-attention for shipping cost prediction",
+          "authors": "P. A. Sreekar, S. Verma, V. Madhavan, A. Persad",
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://www.amazon.science/publications/unveiling-the-power-of-self-attention-for-shipping-cost-prediction-the-rate-card-transformer"
+            }
+          ],
+          "detailFile": "content/publications/entries/acml-2023-rctransformer.md"
+        },
+        {
+          "slug": "emnlp-2021-key-point-matching",
+          "meta": "EMNLP Argument Mining Workshop, 2021",
+          "title": "Leveraging pre-trained language models for key point matching",
+          "authors": "M. N. Kapadnis, S. Patnaik, S. S. Panigrahi, V. Madhavan, A. Nandy",
+          "links": [
+            {
+              "label": "Paper",
+              "url": "http://dx.doi.org/10.18653/v1/2021.argmining-1.21"
+            }
+          ],
+          "detailFile": "content/publications/entries/emnlp-2021-key-point-matching.md"
+        }
+      ]
+    }
+  ]
+}
